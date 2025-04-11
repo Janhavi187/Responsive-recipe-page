@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Recipe Blog</title>
+ 
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#breakfast">Breakfast</a>
+    <a href="#lunch">Lunch</a>
+    <a href="#dinner">Dinner</a>
+    <input type="text" id="search" placeholder="Search recipes..." />
+  </nav>
+<div id="home"></div>
+ 
+ <section class="hero">
+  <div class="hero-text">
+    <h1>Cook. Eat. Repeat.</h1>
+    <p>Discover delicious recipes tailored for every taste and time of day. Whether you're a beginner or a master chef, Tasty Bites has something for you.</p>
+    <a href="#breakfast" class="hero-btn">Explore Recipes</a>
+  </div>
+</section>
+
+ <!-- About Section -->
+<section id="about" class="about-section">
+  <h2>About Us</h2>
+  <div class="about-content">
+    <p>
+      Welcome to <strong>Tasty Bites</strong> — your go-to place for simple, delicious recipes for every part of the day. Whether you're flipping pancakes for breakfast, prepping a quick lunch, or making something comforting for dinner, we’ve got you covered.
+    </p>
+    <p>
+      Our recipes are crafted for everyone — from beginners just entering the kitchen to seasoned home cooks looking for inspiration. At Tasty Bites, we believe cooking should be fun, easy, and full of flavor. So grab your ingredients, follow along, and let's cook something amazing together!
+    </p>
+  </div>
+</section>
+<section class="features">
+  <h2>Why Choose Tasty Bites?</h2>
+  <div class="feature-container">
+    <div class="feature">
+      <h3>🥗 Easy Recipes</h3>
+      <p>Simple step-by-step instructions for all skill levels.</p>
+    </div>
+    <div class="feature">
+      <h3>⏱️ Time-Saving</h3>
+      <p>Quick meals to fit your busy schedule — ready in 30 minutes or less.</p>
+    </div>
+    <div class="feature">
+      <h3>🍴 Daily Variety</h3>
+      <p>Breakfast, lunch, dinner — explore flavor-packed options for every time of day.</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Breakfast Section -->
+   
+   <div id="breakfast">
+    <hr>
+    <h2>Breakfast</h2>
+    <br>
+    <div class="dish-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSTkwmI1zPsjYrK-AHbNjmnEriz-2FBhZFfA&s" alt="Veg Upma" class="card-image" />
+      
+      <div class="card-content">
+        <h3>Veg Upma</h3>
+        <input type="checkbox" id="pancake-toggle" class="recipe-toggle" />
+        <label for="pancake-toggle" class="view-button">View Recipe</label>
+    
+        <div class="recipe-details">
+          <p><strong>Ingredients:</strong></p>
+          <ul>
+            <li>1 cup semolina (rava/suji)</li>
+            <li>2 tbsp oil or ghee</li>
+            <li>1 tsp mustard seeds</li>
+            <li>1 tsp urad dal (optional)</li>
+             <li> 1-2 green chilies (chopped)</li>          
+             <li> 1 onion (chopped)</li>          
+              <li>Mixed vegetables (carrot, peas, beans)</li>          
+             <li> 1 tsp ginger (grated)</li>          
+              <li>Curry leaves</li>          
+              <li>2.5 cups water</li>
+            
+          </ul>
+          <p><strong>Instructions:</strong></p>
+          <ol>
+            <li>Dry roast semolina on medium flame till light golden. Keep aside.</li>
+            <li> Heat oil, add mustard seeds, urad dal, curry leaves, green chilies, and ginger.</li>          
+             <li>Add chopped onion and sauté until translucent.</li>          
+              <li>Add chopped vegetables and cook for 2-3 minutes.</li>          
+              <li>Pour in water, add salt, and let it boil.</li>          
+              <li>Gradually add semolina while stirring to avoid lumps.</li>
+               <li>Cover and cook for 3-4 minutes until fluffy.</li>
+              
+              <li>Garnish with coriander and lemon juice. </li>
+      
+          </ol>
+        </div>
+      </div>
+      
+    </div>
+   </div>
+   <!-- Lunch Section -->
+<div id="lunch">
+  <hr>
+  <h2>Lunch</h2>
+  <br>
+  <div class="dish-card">
+    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/chole-recipe.jpg" alt="Chole Masala" class="card-image" />
+    
+    <div class="card-content">
+      <h3>Chole Masala</h3>
+      <input type="checkbox" id="chole-toggle" class="recipe-toggle" />
+      <label for="chole-toggle" class="view-button">View Recipe</label>
+
+      <div class="recipe-details">
+        <p><strong>Ingredients:</strong></p>
+        <ul>
+          <li>1 cup chickpeas (soaked overnight)</li>
+          <li>2 onions, finely chopped</li>
+          <li>2 tomatoes, pureed</li>
+          <li>1 tsp ginger garlic paste</li>
+          <li>1 tsp cumin seeds</li>
+          <li>1 tsp garam masala</li>
+          <li>1 tsp chole masala</li>
+          <li>Salt, turmeric, chili powder</li>
+        </ul>
+        <p><strong>Instructions:</strong></p>
+        <ol>
+          <li>Pressure cook chickpeas until soft.</li>
+          <li>In a pan, heat oil and add cumin seeds.</li>
+          <li>Add onions and sauté until golden.</li>
+          <li>Add ginger garlic paste and cook till raw smell goes.</li>
+          <li>Add tomato puree and all spices.</li>
+          <li>Add boiled chickpeas and simmer for 10 minutes.</li>
+          <li>Garnish with coriander and serve hot with rice or roti.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Dinner Section -->
+<div id="dinner">
+  <hr>
+  <h2>Dinner</h2>
+  <br>
+  <div class="dish-card">
+    <img src="https://media.gettyimages.com/id/670906895/photo/paneer-makhani-or-shahi-paneer-indian-food.jpg?s=612x612&w=gi&k=20&c=85u-LaGLcdlxF_NfKmK9nkh1tDfcUqwBZDwDM5a1KIk=" alt="Paneer Butter Masala" class="card-image" />
+    
+    <div class="card-content">
+      <h3>Paneer Butter Masala</h3>
+      <input type="checkbox" id="paneer-toggle" class="recipe-toggle" />
+      <label for="paneer-toggle" class="view-button">View Recipe</label>
+
+      <div class="recipe-details">
+        <p><strong>Ingredients:</strong></p>
+        <ul>
+          <li>200g paneer (cubed)</li>
+          <li>2 tomatoes (pureed)</li>
+          <li>1 onion (finely chopped)</li>
+          <li>1 tbsp butter + 1 tsp oil</li>
+          <li>1 tsp ginger garlic paste</li>
+          <li>1/2 tsp turmeric, chili powder, garam masala</li>
+          <li>2 tbsp cream</li>
+          <li>Salt to taste</li>
+        </ul>
+        <p><strong>Instructions:</strong></p>
+        <ol>
+          <li>Heat butter and oil in a pan, add onions and sauté.</li>
+          <li>Add ginger garlic paste and cook.</li>
+          <li>Add tomato puree, cook till oil separates.</li>
+          <li>Add spices and paneer cubes, cook for 5 mins.</li>
+          <li>Stir in cream, simmer for 2 mins, and serve hot.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<footer>
+  <div class="footer-content">
+    <p>&copy; 2025 Tasty Bites. All rights reserved.</p>
+    <nav class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#breakfast">Breakfast</a>
+      <a href="#lunch">Lunch</a>
+      <a href="#dinner">Dinner</a>
+    </nav>
+  </div>
+</footer>
+
+
+    
+  
+  
+
+ 
